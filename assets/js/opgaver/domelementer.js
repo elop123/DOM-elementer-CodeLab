@@ -9,10 +9,10 @@ Du skal finde elementet med id="yellowFigure" og console logge det.
 
 // din kode her
 const element=document.getElementById("redFigure");
-console.log("redFigure");
+console.log(element);
 
 const element2=document.getElementById("yellowFigure");
-console.log("yellowFigure");
+console.log(element);
 
 /* opgave 1.2
 Du skal ændre baggrundsfarve på de to elementer du har fundet i opgave 1.1
@@ -22,10 +22,10 @@ farven på elementerne skal være blå. brug evt. elelement.style.backgroundColo
 
 // din kode her
 document.getElementById("redFigure").style.backgroundColor="blue";
-console.log("redFigure");
+
 
 document.getElementById("yellowFigure").style.backgroundColor="blue";
-console.log("yellowFigure");
+
 
 /* opgave 2.1
 Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
