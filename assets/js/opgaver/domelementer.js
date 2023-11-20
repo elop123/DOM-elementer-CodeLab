@@ -54,7 +54,9 @@ Du skal finde alle elementer med klassen purpleFigures og console logge resultat
 */
 
 // din kode her
-
+// 
+let items=document.getElementsByClassName("purpleFigures myFigure");
+console.log(items);
 
 /* opgave 3.2
 Du skal finde alle elementer med klassen purpleFigures og bruge array.from() til at konvertere listen
@@ -88,7 +90,19 @@ const myData = {
 };
 
 
+
 // din kode her
+let title=document.createElement("h3");
+title.innerHTML="Tiger";
+document.getElementById("opgaveFour").appendChild(title);
+
+let image=document.createElement("img");
+image.src='assets/img/standard_tiger.jpg';
+document.getElementById("opgaveFour").appendChild(image);
+
+let text=document.createElement("p");
+text.innerHTML="En tiger er et stort, katteagtig rovdyr med orange og sort striber i pelsen og skarpe tænder og kløer."
+document.getElementById("opgaveFour").appendChild(text);
 
 
 
