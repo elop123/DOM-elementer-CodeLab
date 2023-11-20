@@ -8,7 +8,11 @@ Du skal finde elementet med id="yellowFigure" og console logge det.
 */
 
 // din kode her
+const element=document.getElementById("redFigure");
+console.log("redFigure");
 
+const element2=document.getElementById("yellowFigure");
+console.log("yellowFigure");
 
 /* opgave 1.2
 Du skal ændre baggrundsfarve på de to elementer du har fundet i opgave 1.1
@@ -17,8 +21,11 @@ farven på elementerne skal være blå. brug evt. elelement.style.backgroundColo
 
 
 // din kode her
+document.getElementById("redFigure").style.backgroundColor="blue";
+console.log("redFigure");
 
-
+document.getElementById("yellowFigure").style.backgroundColor="blue";
+console.log("yellowFigure");
 
 /* opgave 2.1
 Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
@@ -28,6 +35,17 @@ Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
 
 
 // din kode her
+
+
+let elem=document.createElement("h2");
+elem.innerHTML="Opgave 2.1 løsning";
+document.getElementById("opgaveTwo").appendChild(elem);
+
+let newp=document.createElement("p");
+let newelem=document.createTextNode("Jeg har løst opgave 2.1");
+newp.appendChild(newelem);
+document.getElementById("opgaveTwo").appendChild(newp);
+
 
 
 // opgave 3 liveHTML lists
